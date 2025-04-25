@@ -1,0 +1,75 @@
+[gd_scene load_steps=11 format=3 uid="uid://bvlbtr2nvffx0"]
+
+[ext_resource type="Texture2D" uid="uid://ckknn8wlhaefh" path="res://descarrega.png" id="1_6y3hp"]
+[ext_resource type="Script" uid="uid://jepcitil7ja0" path="res://pers_2.gd" id="1_vkgb0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_viah5"]
+atlas = ExtResource("1_6y3hp")
+region = Rect2(130, 450, 130, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xxa7r"]
+atlas = ExtResource("1_6y3hp")
+region = Rect2(130, 150, 130, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vtr46"]
+atlas = ExtResource("1_6y3hp")
+region = Rect2(130, 0, 130, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cs45v"]
+atlas = ExtResource("1_6y3hp")
+region = Rect2(130, 300, 130, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vkgb0"]
+atlas = ExtResource("1_6y3hp")
+region = Rect2(447, 0, 149, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnxm7"]
+atlas = ExtResource("1_6y3hp")
+region = Rect2(596, 0, 149, 150)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wnxm7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_viah5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xxa7r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vtr46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cs45v")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vkgb0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnxm7")
+}],
+"loop": true,
+"name": &"salt2",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vkgb0"]
+size = Vector2(67, 128)
+
+[node name="pers2" type="CharacterBody2D"]
+script = ExtResource("1_vkgb0")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(521.09, 529)
+scale = Vector2(0.951807, 0.973334)
+sprite_frames = SubResource("SpriteFrames_wnxm7")
+animation = &"salt2"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(509.5, 530)
+shape = SubResource("RectangleShape2D_vkgb0")
