@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvysdygprxmyx"]
+
+[ext_resource type="PackedScene" uid="uid://ctx2tka2mevwo" path="res://fondoniv1.tscn" id="1_j5xk7"]
+[ext_resource type="PackedScene" uid="uid://beyp7tg1r5oo2" path="res://Pers1.tscn" id="2_8jaaf"]
+[ext_resource type="PackedScene" uid="uid://bvlbtr2nvffx0" path="res://pers2.tscn" id="3_tv4je"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Fondonivell1" parent="." instance=ExtResource("1_j5xk7")]
+
+[node name="Pers 1" parent="." instance=ExtResource("2_8jaaf")]
+position = Vector2(70, 39)
+
+[node name="pers2" parent="." instance=ExtResource("3_tv4je")]
+position = Vector2(-20, 49)
