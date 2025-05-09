@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvysdygprxmyx"]
+
+[ext_resource type="PackedScene" uid="uid://ctx2tka2mevwo" path="res://fondoniv1.tscn" id="1_j5xk7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Fondonivell1" parent="." instance=ExtResource("1_j5xk7")]
