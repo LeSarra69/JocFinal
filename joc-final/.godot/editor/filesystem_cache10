@@ -1,0 +1,77 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1746880775
+3c2ec370d0e96e8b784d2d482ed15c68.jpg::CompressedTexture2D/CompressedTexture2D::5269168045213598457::1746781437::1746878570::1::::<><><>0<>0<>17e02b54690173d254909db4ed532cc3<>res://.godot/imported/3c2ec370d0e96e8b784d2d482ed15c68.jpg-912a2f4184943c6868dacfa50a4dd1e9.ctex::
+37623.jpg::CompressedTexture2D/CompressedTexture2D::29014571219018869::1746781437::1746878573::1::::<><><>0<>0<>7aceb07096f259f4b75aa714f1c221cd<>res://.godot/imported/37623.jpg-e3ad0e5ee0fe6b9cdd0033629fef76e9.ctex::
+animacionspers2.ong - còpia.png::CompressedTexture2D/CompressedTexture2D::7014577084573176579::1746781437::1746878570::1::::<><><>0<>0<>4977a53a170c2b0a7658a205bc214f80<>res://.godot/imported/animacionspers2.ong - còpia.png-407ceea96c61eca9a48b962c17ec17ef.ctex::
+animacionspers2.ong.png::CompressedTexture2D/CompressedTexture2D::7081586053207682752::1746781437::1746878570::1::::<><><>0<>0<>f1dff5207e793c745ed655b3f4a99916<>res://.godot/imported/animacionspers2.ong.png-b347af60555feb2fa5ffc5e6c31faff7.ctex::
+cielito.png::CompressedTexture2D/CompressedTexture2D::2305596824971748341::1746781437::1746878570::0::::<><><>0<>0<>ac9b06ce175bd1c9093f451b2de66a1e<>::
+descarrega.png::CompressedTexture2D/CompressedTexture2D::5496187885299252113::1746781437::1746878570::1::::<><><>0<>0<>84dbf88acd7b922eb8f954ff4b5573c1<>res://.godot/imported/descarrega.png-312398bdf408d380ccadbc50676a0c25.ctex::
+far-clouds.png::CompressedTexture2D/CompressedTexture2D::5872553749834058916::1746879244::1746879244::1::::<><><>0<>0<>c7ef53ac725178288453f1bf283fd713<>res://.godot/imported/far-clouds.png-cc14a4934a28e57c9012a30c92ad3575.ctex::
+far-mountains.png::CompressedTexture2D/CompressedTexture2D::6248172772146179732::1746879242::1746879242::1::::<><><>0<>0<>4c59077476e29e6d997048c585c22e9d<>res://.godot/imported/far-mountains.png-bd05381335877ba5118c5a29cd667c93.ctex::
+fondoniv1.tscn::PackedScene::6155583900217555982::1746880764::0::1::::<><><>0<>0<><>::uid://dw23rip7n6snl::::res://sky.png<>uid://cpwydqhtwbbay::::res://far-clouds.png<>uid://cyd0vaxfkjqlf::::res://near-clouds.png<>uid://cvawq0suoh2l1::::res://far-mountains.png<>uid://i8vcqbdq4oph::::res://mountains.png<>uid://528q7bau1o5k::::res://trees.png<>uid://dcy50evg86uks::::res://parallax-mountain-foreground-trees.png<>uid://wsnsfojfhpkf::::res://parallax-mountain-trees.png
+fonndo2.png::CompressedTexture2D/CompressedTexture2D::7416952312981340390::1746781437::1746878570::1::::<><><>0<>0<>a28cb2671a38f4d94e1d71d786d5e6f4<>res://.godot/imported/fonndo2.png-5da3eb9c233aae3b60ba4ab805c47487.ctex::
+goblinanimat.png::CompressedTexture2D/CompressedTexture2D::6381711296167537789::1746781437::1746878570::1::::<><><>0<>0<>d8588048c75e5c76af469081841afbea<>res://.godot/imported/goblinanimat.png-72752ca0679a6f2fe510da3b09ddc0d7.ctex::
+hielito.png::CompressedTexture2D/CompressedTexture2D::6980617631214783403::1746781437::1746878570::1::::<><><>0<>0<>422adab58a91a897458303224b89c548<>res://.godot/imported/hielito.png-4240f9e2bde7435123b4a358a6f75ec3.ctex::
+icon.svg::CompressedTexture2D/CompressedTexture2D::2135485990357493756::1746781437::1746878570::1::::<><><>0<>0<>cfd5dac23b106ab5179dc80f82bb608c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+monstruitos.tscn::PackedScene/PackedScene::748087423914326261::1746781437::0::1::::<><><>0<>0<><>::uid://cw6l38xjg0wxp::::res://goblinanimat.png
+Mountains-Background-PNG.png::CompressedTexture2D/CompressedTexture2D::6225120840377203263::1746781437::1746878570::1::::<><><>0<>0<>ed52e0a74d25c5ecf694d5234f5e49b6<>res://.godot/imported/Mountains-Background-PNG.png-73755920152dd23923f4017893b1a047.ctex::
+mountains.png::CompressedTexture2D/CompressedTexture2D::630914685501388101::1746879240::1746879241::1::::<><><>0<>0<>5b4c1ecf878fec3cad38d8f126ea7036<>res://.godot/imported/mountains.png-03f302fbd9195711fc86ea8f28ca435e.ctex::
+near-clouds.png::CompressedTexture2D/CompressedTexture2D::6465122210223737731::1746879239::1746879239::1::::<><><>0<>0<>5f4f857c4c697fdd687b6e69becbd5bf<>res://.godot/imported/near-clouds.png-dded399b4f35b4f46f86bef4ebd50565.ctex::
+Nivell1.tscn::PackedScene::6297451683668225567::1746880722::0::1::::<><><>0<>0<><>::uid://ctx2tka2mevwo::::res://fondoniv1.tscn<>uid://beyp7tg1r5oo2::::res://Pers1.tscn<>uid://bvlbtr2nvffx0::::res://pers2.tscn
+nube-blanca-cielo-azul_1203-9446.png::CompressedTexture2D/CompressedTexture2D::5582297003785055277::1746781437::1746878570::1::::<><><>0<>0<>59b0207684c59375f5ec9df8705203f7<>res://.godot/imported/nube-blanca-cielo-azul_1203-9446.png-6e093a6a38fdf30998fd9927d6ce75fc.ctex::
+parallax-mountain-foreground-trees.png::CompressedTexture2D/CompressedTexture2D::7351051201935665726::1746880012::1746880012::1::::<><><>0<>0<>f8bd638c9bbce7b308b217edefdfbee5<>res://.godot/imported/parallax-mountain-foreground-trees.png-2b4b73cd57a8e53c4b0a895a3577aba8.ctex::
+parallax-mountain-trees.png::CompressedTexture2D/CompressedTexture2D::1582135109465946429::1746880006::1746880007::1::::<><><>0<>0<>8deb54ea98859eb8073511bf2ee49d16<>res://.godot/imported/parallax-mountain-trees.png-9f0726f3412d39c9707d2485b665fe1b.ctex::
+per1.1.png::CompressedTexture2D/CompressedTexture2D::2478567260828827777::1746781437::1746878570::1::::<><><>0<>0<>3ec23ab41a78035af721efbd77141804<>res://.godot/imported/per1.1.png-ad45c12e10eab654630f47eb7fe93c40.ctex::
+per1_2.png::CompressedTexture2D/CompressedTexture2D::3404740931541220082::1746781437::1746878570::1::::<><><>0<>0<>6ad8fe0ab3ba3c2dfe9c608269321599<>res://.godot/imported/per1_2.png-41bb8dd7d95b0540cc0113aac84f062f.ctex::
+pers1.2.png::CompressedTexture2D/CompressedTexture2D::2370683595559804141::1746781437::1746878570::1::::<><><>0<>0<>8e242b50fc054e1df4f9e773d6656d47<>res://.godot/imported/pers1.2.png-b96dea1208c397412911e1b742240552.ctex::
+Pers1.tscn::PackedScene::2717690033056832623::1746880722::0::1::::<><><>0<>0<><>::uid://dmc31ltknfvw8::::res://pers_1.gd<>uid://bbkvv1uus1su8::::res://per1.1.png<>uid://81m2vg3ol822::::res://pers1.2.png
+pers1_1.png::CompressedTexture2D/CompressedTexture2D::5969530952228132302::1746781437::1746878570::1::::<><><>0<>0<>95fc3c8b98bb13a4791b3db09f3ffd45<>res://.godot/imported/pers1_1.png-94d5806f99f6e3d772ec6ab714cc93fd.ctex::
+pers2.png::CompressedTexture2D/CompressedTexture2D::1654401807039179474::1746781437::1746878570::0::::<><><>0<>0<>547fddd07a69a499c54e0f18e5d3c291<>::
+pers2.tscn::PackedScene/PackedScene::3883190137688996499::1746781437::0::1::::<><><>0<>0<><>::uid://ckknn8wlhaefh::::res://descarrega.png<>uid://jepcitil7ja0::::res://pers_2.gd
+pers2fr.png::CompressedTexture2D/CompressedTexture2D::8623423503498497353::1746781437::1746878570::1::::<><><>0<>0<>a3066b2e327cbabad6bd1dc00ae7c6e4<>res://.godot/imported/pers2fr.png-c8b42d655f9a879fcf5a59d8ea86419c.ctex::
+personatgerandom.png::CompressedTexture2D/CompressedTexture2D::7217191594300751008::1746781437::1746878570::1::::<><><>0<>0<>c60a248b9754e728ba69b7e82718710c<>res://.godot/imported/personatgerandom.png-bc5a7ac12d757fb12e430ce06d4c5784.ctex::
+pers_1.gd::GDScript/GDScript::8007404044262883289::1746781437::0::1::::<>CharacterBody2D<><>0<>0<><>::
+pers_2.gd::GDScript/GDScript::640871880155373613::1746781437::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sky.png::CompressedTexture2D/CompressedTexture2D::8760885689600886805::1746879237::1746879237::1::::<><><>0<>0<>24091fcd5e15f4b3b52a3fd0351c801c<>res://.godot/imported/sky.png-26d2f2385da36d2602e95bc19d12fcc5.ctex::
+terra_on_saltar.png::CompressedTexture2D/CompressedTexture2D::3505722533014640803::1746781437::1746878570::1::::<><><>0<>0<>8fc3b0646d01a97d08362ca5fd30f8b6<>res://.godot/imported/terra_on_saltar.png-6c3b63f753039f3f667d33bceb6bc5e6.ctex::
+tileset1.png::CompressedTexture2D/CompressedTexture2D::7963616995612299879::1746781437::1746878570::1::::<><><>0<>0<>26cd5b042274cf5b150624c9c7acd843<>res://.godot/imported/tileset1.png-d3a3d50a09850c08a46b2949b34a9ca2.ctex::
+tileset2.png::CompressedTexture2D/CompressedTexture2D::4190462874132813025::1746781437::1746878570::1::::<><><>0<>0<>5416fd2499a1f381bce99e45154b6d80<>res://.godot/imported/tileset2.png-7b4d80e551f7e661abcb9a5cc9d938ee.ctex::
+trees.png::CompressedTexture2D/CompressedTexture2D::2163437424284131982::1746879234::1746879234::1::::<><><>0<>0<>d24766bb1a6d73f5668054096f0d4b8c<>res://.godot/imported/trees.png-3e3d8c8b11cc33efb234069c91e0fab9.ctex::
+::res://Super Mountain Dusk Files/::1746817689
+::res://Super Mountain Dusk Files/Assets/::1746817689
+::res://Super Mountain Dusk Files/Assets/Old Version/::1746817689
+::res://Super Mountain Dusk Files/Assets/Old Version/layers/::1746878570
+parallax-mountain-bg.png::CompressedTexture2D/CompressedTexture2D::9148890837198964699::1746781437::1746878570::1::::<><><>0<>0<>3b638e75935b014afcd381ec67693ff8<>res://.godot/imported/parallax-mountain-bg.png-6fa909dad62f8b9b20c349bd7a32afb6.ctex::
+parallax-mountain-foreground-trees.png::CompressedTexture2D/CompressedTexture2D::7124111782266774451::1746781437::1746878570::1::::<><><>0<>0<>81afc4140395328b93418e2750f4c01c<>res://.godot/imported/parallax-mountain-foreground-trees.png-d107040de460273c630f3c37628bdc30.ctex::
+parallax-mountain-montain-far.png::CompressedTexture2D/CompressedTexture2D::2502508673986341620::1746781437::1746878570::1::::<><><>0<>0<>e439d60d5150f4da07bbc0c08c02b22c<>res://.godot/imported/parallax-mountain-montain-far.png-2ca9e199dd6ec28ba6416f6b8dc58243.ctex::
+parallax-mountain-mountains.png::CompressedTexture2D/CompressedTexture2D::2954830069658149086::1746781437::1746878570::1::::<><><>0<>0<>e2a172f851a9222fbcb6b768cdba9a49<>res://.godot/imported/parallax-mountain-mountains.png-f107b633e67d9e82183ff3885e5e3e11.ctex::
+parallax-mountain-trees.png::CompressedTexture2D/CompressedTexture2D::667273105882956229::1746781437::1746878570::1::::<><><>0<>0<>66b657fccc287ed0b17b6dc6f009816c<>res://.godot/imported/parallax-mountain-trees.png-023efd5843199019f1799424e58a67c4.ctex::
+::res://Super Mountain Dusk Files/Assets/version A/::1746817689
+::res://Super Mountain Dusk Files/Assets/version A/Aseprite/::1746817689
+::res://Super Mountain Dusk Files/Assets/version A/Layers/::1746878570
+far-clouds.png::CompressedTexture2D/CompressedTexture2D::8508386398467143734::1746781437::1746878570::1::::<><><>0<>0<>260e2483c8552fda407168055f42861d<>res://.godot/imported/far-clouds.png-804daa6cc9636f210304f1015bfcb9e8.ctex::
+far-mountains.png::CompressedTexture2D/CompressedTexture2D::7767166034748844609::1746781437::1746878570::1::::<><><>0<>0<>8516b3c0636f93b808b96baaddfb012a<>res://.godot/imported/far-mountains.png-7126425581e004bbc24c15d192ec29f2.ctex::
+mountains.png::CompressedTexture2D/CompressedTexture2D::1285274133733476594::1746781437::1746878570::1::::<><><>0<>0<>5f1b398a60408672c8d2f02093e5c061<>res://.godot/imported/mountains.png-1ad136f5fd89a2060de145a64f2b7720.ctex::
+near-clouds.png::CompressedTexture2D/CompressedTexture2D::5552570763843746438::1746781437::1746878570::1::::<><><>0<>0<>62912944349b7b1ece7a7415496c0726<>res://.godot/imported/near-clouds.png-a70ce40a12670ecadab05f5259473358.ctex::
+sky.png::CompressedTexture2D/CompressedTexture2D::1363035462191449907::1746781437::1746878570::1::::<><><>0<>0<>135c61ddc7b4390250067d472a1a6b31<>res://.godot/imported/sky.png-21d11b314e4e54dbc9739894d0738410.ctex::
+trees.png::CompressedTexture2D/CompressedTexture2D::8133113280922505157::1746781437::1746878570::1::::<><><>0<>0<>fe02479be393131b468c19cb37f885bd<>res://.godot/imported/trees.png-d7b6cf40d885dfa60c6e3285150544a2.ctex::
+::res://Super Mountain Dusk Files/Assets/version A/Previews/::1746878570
+Mountain-Dusk.png::CompressedTexture2D/CompressedTexture2D::8741931697627393880::1746781437::1746878570::1::::<><><>0<>0<>7b2e6e0189b655337bb0b22d16804e8d<>res://.godot/imported/Mountain-Dusk.png-ba08cc2b6b3608dda0dca059c31679dc.ctex::
+::res://Super Mountain Dusk Files/Assets/version B/::1746878570
+preview.png::CompressedTexture2D/CompressedTexture2D::6591902437836233879::1746781437::1746878570::1::::<><><>0<>0<>d62b28118e49094ab4266d85695da8fb<>res://.godot/imported/preview.png-95d73e313903142900e364bcb2c35769.ctex::
+::res://Super Mountain Dusk Files/Assets/version B/Aseprite/::1746817689
+::res://Super Mountain Dusk Files/Assets/version B/Layers/::1746878570
+far-mountains.png::CompressedTexture2D/CompressedTexture2D::2065180891015726317::1746781437::1746878570::1::::<><><>0<>0<>d507aae4bd3f8baceca04f11bc4f37a1<>res://.godot/imported/far-mountains.png-e435699e1fbc97eab2e1e69845ea8081.ctex::
+far-trees.png::CompressedTexture2D/CompressedTexture2D::5834591375179669792::1746781437::1746878570::1::::<><><>0<>0<>94e45995268cf2f502e8fe03d2d38070<>res://.godot/imported/far-trees.png-4c052daee79b0b1f1b69ed8f63fa6d44.ctex::
+middle-mountains.png::CompressedTexture2D/CompressedTexture2D::5164323269786138403::1746781437::1746878570::1::::<><><>0<>0<>dc88dbbf677a0921515af0dd03ce9115<>res://.godot/imported/middle-mountains.png-0fe0f1dbbefe48cc3c764a49f88d10e7.ctex::
+myst.png::CompressedTexture2D/CompressedTexture2D::4515653325396798799::1746781437::1746878570::1::::<><><>0<>0<>5c6c29ac39514a497f1febec3e7fbe91<>res://.godot/imported/myst.png-088efd74c757957808366d971d9c2322.ctex::
+near-trees.png::CompressedTexture2D/CompressedTexture2D::3393337305353087179::1746781437::1746878570::1::::<><><>0<>0<>86e946950714f4e6f6d5045359431369<>res://.godot/imported/near-trees.png-033b51e199f7d93ae9a392ce968086cf.ctex::
+sky.png::CompressedTexture2D/CompressedTexture2D::5083213900410948975::1746781437::1746878570::1::::<><><>0<>0<>90d7586fc27d3c666165e9016f401651<>res://.godot/imported/sky.png-ec6a7d6572017de73724a516245ea3d1.ctex::
+::res://Super Mountain Dusk Files/Assets/Version C/::1746878570
+preview.png::CompressedTexture2D/CompressedTexture2D::7156561764234248804::1746781437::1746878570::1::::<><><>0<>0<>f2a9158a90ced9083082e55b9aee7e8b<>res://.godot/imported/preview.png-3301a2dc8f319f76f3b586ecb747a2be.ctex::
+::res://Super Mountain Dusk Files/Assets/Version C/layers/::1746878570
+canyon.png::CompressedTexture2D/CompressedTexture2D::3847384086885453558::1746781437::1746878570::1::::<><><>0<>0<>01385588ff19e81d1cb76b6b38655df7<>res://.godot/imported/canyon.png-c3616621cae47494432954942023475d.ctex::
+clouds.png::CompressedTexture2D/CompressedTexture2D::1948417688917464042::1746781437::1746878570::1::::<><><>0<>0<>d7ad94160c8a24b3c3eeff3fc81003d2<>res://.godot/imported/clouds.png-ebef4ad6b39a5ba8464f1f975348ffd5.ctex::
+far-mountains.png::CompressedTexture2D/CompressedTexture2D::5834550525568902008::1746781437::1746878570::1::::<><><>0<>0<>f81dbd04fae4f33391c5f0fe9173c3e9<>res://.godot/imported/far-mountains.png-39eab9458905df4a6da8d12bc974b72b.ctex::
+front.png::CompressedTexture2D/CompressedTexture2D::3004068010312206856::1746781437::1746878570::1::::<><><>0<>0<>a7de5f5741084c0eb13d6c8236322698<>res://.godot/imported/front.png-1b25cd581ad06f436ccd9c3ad794f741.ctex::
+sky.png::CompressedTexture2D/CompressedTexture2D::1153398563326183295::1746781437::1746878570::1::::<><><>0<>0<>0f5476faf76151a16230fdf37703a6a7<>res://.godot/imported/sky.png-e88a37b749ea390935da73bd7999b013.ctex::
