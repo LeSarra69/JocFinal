@@ -155,21 +155,20 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_a6erd"]
-size = Vector2(54.5, 71)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dll4f"]
+radius = 16.0
+height = 52.0
 
 [node name="Pers 1" type="CharacterBody2D"]
+position = Vector2(1, 4)
 script = ExtResource("1_du2vc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(529, 530)
+position = Vector2(29.037, 437)
 scale = Vector2(0.296296, 0.275093)
 sprite_frames = SubResource("SpriteFrames_viah5")
-animation = &"quiet"
+animation = &"animacio_roda"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(530.75, 535.5)
-shape = SubResource("RectangleShape2D_a6erd")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(573, 322)
+position = Vector2(31, 450)
+shape = SubResource("CapsuleShape2D_dll4f")

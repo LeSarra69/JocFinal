@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://0jpw5p6qs4nw"]
+
+[ext_resource type="Texture2D" uid="uid://di4efm4xujq7c" path="res://game over.png" id="1_6cxpi"]
+[ext_resource type="Script" uid="uid://de7ws47oarx45" path="res://game_over.gd" id="1_v7q4x"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_v7q4x")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_top = 571.0
+offset_right = 1150.0
+offset_bottom = 650.0
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Tornar a intentar"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(576.5, 324)
+scale = Vector2(0.599479, 0.6)
+texture = ExtResource("1_6cxpi")
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

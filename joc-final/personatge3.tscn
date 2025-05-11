@@ -1,0 +1,141 @@
+[gd_scene load_steps=21 format=3 uid="uid://e4ioatstucqc"]
+
+[ext_resource type="Script" uid="uid://ynsb4mdt3xbk" path="res://node_2d.gd" id="1_uvu6v"]
+[ext_resource type="Texture2D" uid="uid://5r1upbifbo5y" path="res://FREE_Samurai 2D Pixel Art v1.2/Sprites/RUN.png" id="2_5alu8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mkp6j"]
+radius = 15.0
+height = 62.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bnkbx"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d1jlx"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f2oa0"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xpfr5"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8obt"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o4c2c"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5bq8"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(576, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kkrvf"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(672, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uuhah"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(768, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yko5f"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(864, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ar6qh"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(960, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_edqv0"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(1056, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_udkjo"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(1152, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eq4vq"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(1248, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_scudq"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(1344, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r6ssu"]
+atlas = ExtResource("2_5alu8")
+region = Rect2(1440, 0, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1icfs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bnkbx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d1jlx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f2oa0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xpfr5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8obt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o4c2c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5bq8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kkrvf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uuhah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yko5f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ar6qh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_edqv0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_udkjo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eq4vq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_scudq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r6ssu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="CharacterBody2D"]
+visible = false
+script = ExtResource("1_uvu6v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(121, 455)
+shape = SubResource("CapsuleShape2D_mkp6j")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(112, 413)
+scale = Vector2(1.72396, 2.19271)
+sprite_frames = SubResource("SpriteFrames_1icfs")

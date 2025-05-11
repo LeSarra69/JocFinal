@@ -2,7 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://cw6l38xjg0wxp" path="res://goblinanimat.png" id="1_pwqn7"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_4owgy"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pwqn7"]
+radius = 12.0
+height = 46.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ckfdn"]
 atlas = ExtResource("1_pwqn7")
@@ -66,8 +68,10 @@ animations = [{
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource("RectangleShape2D_4owgy")
+shape = SubResource("CapsuleShape2D_pwqn7")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D"]
+show_behind_parent = true
+position = Vector2(16, -17)
 sprite_frames = SubResource("SpriteFrames_k11fl")
-frame_progress = 0.57538
+frame_progress = 0.899593

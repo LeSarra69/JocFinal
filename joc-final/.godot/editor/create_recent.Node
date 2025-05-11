@@ -1,6 +1,14 @@
-CollisionShape2D
-ColorRect
+Label
+Button
+VBoxContainer
 Sprite2D
-Camera2D
 ParallaxLayer
+CollisionShape2D
+Camera2D
+Area2D
+AnimatedSprite2D
+CharacterBody2D
+StaticBody2D
+TileMap
 ParallaxBackground
+ColorRect
