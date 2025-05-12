@@ -1,10 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://cvysdygprxmyx"]
+[gd_scene load_steps=5 format=3 uid="uid://cvysdygprxmyx"]
 
+[ext_resource type="Script" uid="uid://wwifq6kikcct" path="res://fondoniv_1.gd" id="1_n7sjb"]
 [ext_resource type="PackedScene" uid="uid://beyp7tg1r5oo2" path="res://Pers1.tscn" id="2_8jaaf"]
 [ext_resource type="PackedScene" uid="uid://bvlbtr2nvffx0" path="res://pers2.tscn" id="3_tv4je"]
 [ext_resource type="PackedScene" uid="uid://cwuudo0lkblda" path="res://fondoniv_1.tscn" id="4_r0lan"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_n7sjb")
 
 [node name="Pers 1" parent="." instance=ExtResource("2_8jaaf")]
 position = Vector2(70, 39)

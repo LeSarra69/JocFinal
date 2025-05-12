@@ -8,7 +8,7 @@ var gravetat = ProjectSettings.get_setting("physics/2d/default_gravity")
 func _physics_process(delta):
 
 	if Input.is_action_just_pressed("fsalt") and is_on_floor():
-		velocity.y = vsalt
+		velocity.y = 1.1 * vsalt
 
 	var direccio = Vector2.ZERO
 	direccio.x = Input.get_axis("fesquerra", "fdavant")
