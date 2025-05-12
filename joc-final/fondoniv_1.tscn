@@ -1,7 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://cwuudo0lkblda"]
 
-[ext_resource type="Script" uid="uid://wwifq6kikcct" path="res://fondoniv_1.gd" id="1_8vrr8"]
-[ext_resource type="Texture2D" uid="uid://bmtbslbio7hsi" path="res://Fondos Nivells/Forest of Illusion Files/Layers/back.png" id="1_aqlvw"]
+[ext_resource type="Texture2D" uid="uid://bmtbslbio7hsi" path="res://back.png" id="1_aqlvw"]
 [ext_resource type="Texture2D" uid="uid://cflpb03d7xmnf" path="res://Captura de pantalla 2025-05-10 203842.png" id="2_628xn"]
 [ext_resource type="Texture2D" uid="uid://bs0lipaiomxhx" path="res://middle.png" id="3_628xn"]
 [ext_resource type="Texture2D" uid="uid://u2qlma6cncr5" path="res://image (2).png" id="4_ua6fh"]
@@ -9,6 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://vdmiuros4tgw" path="res://tiles2.png" id="6_8vrr8"]
 [ext_resource type="Script" uid="uid://lqk6i4yuqxer" path="res://area_2d_5.gd" id="8_2was2"]
 [ext_resource type="Texture2D" uid="uid://bwmim0guubieu" path="res://OIP-removebg-preview.png" id="9_qiwfi"]
+
+[sub_resource type="GDScript" id="GDScript_2was2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7akdn"]
 size = Vector2(480, 102.5)
@@ -26,7 +27,7 @@ size = Vector2(2326.5, 20)
 size = Vector2(262, 331.5)
 
 [node name="FondoNiv1" type="Node2D"]
-script = ExtResource("1_8vrr8")
+script = SubResource("GDScript_2was2")
 
 [node name="Area2D" type="StaticBody2D" parent="."]
 

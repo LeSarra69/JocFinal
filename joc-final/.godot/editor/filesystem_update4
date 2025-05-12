@@ -7,3 +7,9 @@ res://game over.tscn
 res://monstruitos.tscn
 res://menu inicio.tscn
 res://Tutorial.tscn
+res://areabala.gd
+res://areabala.tscn
+res://sprite_2d.gd
+res://bala.gd
+res://pers_1.gd
+res://character_body_2d.gd
