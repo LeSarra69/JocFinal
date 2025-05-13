@@ -24,7 +24,7 @@ size = Vector2(89.5, 778)
 size = Vector2(80, 637)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u6jkv"]
-size = Vector2(106, 485)
+size = Vector2(106, 392.5)
 
 [node name="Fondonivell2" type="Node2D"]
 script = ExtResource("1_rks0c")
@@ -32,7 +32,7 @@ script = ExtResource("1_rks0c")
 [node name="Area2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(811, 728.25)
+position = Vector2(811, 690.25)
 shape = SubResource("RectangleShape2D_nw7bw")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
@@ -162,12 +162,12 @@ motion_scale = Vector2(0.6, 0.6)
 motion_mirroring = Vector2(1150, 0)
 
 [node name="Sprite2D4" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
-position = Vector2(389.25, 424)
+position = Vector2(389.25, 405)
 scale = Vector2(1.53217, 2.6)
 texture = ExtResource("7_0p81f")
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
-position = Vector2(785, 460.5)
+position = Vector2(785, 441.5)
 scale = Vector2(1.40809, 1.94375)
 texture = ExtResource("7_0p81f")
 
@@ -176,25 +176,25 @@ motion_scale = Vector2(0.7, 0.7)
 motion_mirroring = Vector2(1150, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer8"]
-position = Vector2(285.5, 564)
+position = Vector2(285.5, 545)
 scale = Vector2(1.05699, 1.0375)
 texture = ExtResource("8_7s0qg")
 
 [node name="Sprite2D2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer8"]
-position = Vector2(836, 559)
+position = Vector2(836, 540)
 scale = Vector2(1.16176, 1.1125)
 texture = ExtResource("8_7s0qg")
 
 [node name="Sprite2D3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer8"]
-position = Vector2(557, 558.5)
+position = Vector2(557, 539.5)
 scale = Vector2(1.25, 1.08125)
 texture = ExtResource("8_7s0qg")
 
 [node name="ColorRect" type="ColorRect" parent="ParallaxBackground/ParallaxLayer8"]
 offset_left = -2.0
-offset_top = 644.0
+offset_top = 625.0
 offset_right = 1168.0
-offset_bottom = 879.0
+offset_bottom = 860.0
 color = Color(0, 0, 0, 1)
 metadata/_edit_use_anchors_ = true
 
@@ -203,18 +203,19 @@ position = Vector2(1151, 4)
 script = ExtResource("10_u6jkv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
-position = Vector2(1100, 471)
+position = Vector2(3619, 413.75)
 shape = SubResource("RectangleShape2D_u6jkv")
 
 [node name="Pers 1" parent="." instance=ExtResource("11_a1o4x")]
 
 [node name="VisibleOnScreenNotifier2D2" type="VisibleOnScreenNotifier2D" parent="Pers 1"]
+visible = false
 position = Vector2(-6, -3)
 
 [node name="pers2" parent="." instance=ExtResource("12_twg3m")]
 
 [node name="Node2D" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(306, 491)
+position = Vector2(4668, 549)
 
 [connection signal="body_entered" from="Area2D4" to="Area2D4" method="_on_body_entered"]
 [connection signal="screen_exited" from="Pers 1/VisibleOnScreenNotifier2D2" to="pers2" method="_on_visible_on_screen_notifier_2d_screen_exited"]
