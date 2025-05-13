@@ -2,8 +2,9 @@ extends CharacterBody2D
 
 const velocitat:= 450
 const vsalt = -600
-
+const bala = preload("res://areabala.tscn")
 var gravetat = ProjectSettings.get_setting("physics/2d/default_gravity")
+var miradret =true
 
 func _physics_process(delta):
 
@@ -22,19 +23,25 @@ func _physics_process(delta):
 		$AnimatedSprite2D.play("quiet")
 	if Input.is_action_pressed("fdavant"):
 		$AnimatedSprite2D.flip_h = false
+		miradret = true
 	if Input.is_action_pressed("fesquerra"):
 		$AnimatedSprite2D.flip_h = true
+		miradret = false
 	velocity.x = direccio.x * velocitat
 	velocity.y += gravetat * delta
 	
+	#disparar
+	var shoot = bala.instantiate()
+	if Input.is_action_just_pressed("fbala"):
+		get_parent().add_child(shoot)
+		shoot.position = $AnimatedSprite2D.global_position
+		if not miradret:
+			shoot.scale.x *=-1
+			shoot.vbala *=-1
+			
+	
 	move_and_slide()
 
-	if Input.is_action_just_pressed("fbala"):
-		shoot()
 
-var bullet = preload("res://areabala.tscn")
-
-func shoot():
-	var newbala = bullet.instantiate()
-	newbala.global_position = $spownpoint.global_position
-	get_parent().add_child(newbala)
+func _on_polla_body_entered(body: Node2D) -> void:
+	get_tree().reload_current_scene()

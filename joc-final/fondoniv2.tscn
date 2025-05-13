@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://earylxcfpeuy"]
+[gd_scene load_steps=18 format=3 uid="uid://earylxcfpeuy"]
 
 [ext_resource type="Script" uid="uid://xytotw3irjr" path="res://fondoniv_2.gd" id="1_rks0c"]
 [ext_resource type="Texture2D" uid="uid://pavi25w3fe46" path="res://sky.png" id="1_wowoo"]
@@ -12,6 +12,7 @@
 [ext_resource type="Script" uid="uid://dt0posqti3a52" path="res://area_2d_4.gd" id="10_u6jkv"]
 [ext_resource type="PackedScene" uid="uid://beyp7tg1r5oo2" path="res://Pers1.tscn" id="11_a1o4x"]
 [ext_resource type="PackedScene" uid="uid://bvlbtr2nvffx0" path="res://pers2.tscn" id="12_twg3m"]
+[ext_resource type="PackedScene" uid="uid://kwm5jrflqjnh" path="res://monstruitos.tscn" id="13_twg3m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nw7bw"]
 size = Vector2(14236, 83.5)
@@ -211,6 +212,9 @@ shape = SubResource("RectangleShape2D_u6jkv")
 position = Vector2(-6, -3)
 
 [node name="pers2" parent="." instance=ExtResource("12_twg3m")]
+
+[node name="Node2D" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(306, 491)
 
 [connection signal="body_entered" from="Area2D4" to="Area2D4" method="_on_body_entered"]
 [connection signal="screen_exited" from="Pers 1/VisibleOnScreenNotifier2D2" to="pers2" method="_on_visible_on_screen_notifier_2d_screen_exited"]

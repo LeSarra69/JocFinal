@@ -1,9 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://cvysdygprxmyx"]
+[gd_scene load_steps=8 format=3 uid="uid://cvysdygprxmyx"]
 
 [ext_resource type="Script" uid="uid://wwifq6kikcct" path="res://fondoniv_1.gd" id="1_n7sjb"]
 [ext_resource type="PackedScene" uid="uid://beyp7tg1r5oo2" path="res://Pers1.tscn" id="2_8jaaf"]
 [ext_resource type="PackedScene" uid="uid://bvlbtr2nvffx0" path="res://pers2.tscn" id="3_tv4je"]
 [ext_resource type="PackedScene" uid="uid://cwuudo0lkblda" path="res://fondoniv_1.tscn" id="4_r0lan"]
+[ext_resource type="PackedScene" uid="uid://kwm5jrflqjnh" path="res://monstruitos.tscn" id="5_r0lan"]
+[ext_resource type="Texture2D" uid="uid://cg4rg6xwmhklw" path="res://bala.png" id="6_2o74h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vi2p7"]
+size = Vector2(72, 51.75)
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_n7sjb")
@@ -16,3 +21,19 @@ position = Vector2(-20, 49)
 
 [node name="FondoNiv1" parent="." instance=ExtResource("4_r0lan")]
 position = Vector2(-10, 28)
+
+[node name="monstruito" parent="." instance=ExtResource("5_r0lan")]
+position = Vector2(-266, 445)
+
+[node name="polla" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="polla"]
+position = Vector2(201, 488.875)
+shape = SubResource("RectangleShape2D_vi2p7")
+
+[node name="Sprite2D" type="Sprite2D" parent="polla"]
+position = Vector2(248, 464)
+scale = Vector2(0.46038, 0.246434)
+texture = ExtResource("6_2o74h")
+
+[connection signal="body_entered" from="polla" to="Pers 1" method="_on_polla_body_entered"]
