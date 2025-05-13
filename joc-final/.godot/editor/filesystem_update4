@@ -1,14 +1,10 @@
-res://areabala.tscn
-res://codi bala.gd
 res://Nivell1.tscn
 res://Pers1.tscn
 res://pers2.tscn
 res://fondoniv_1.tscn
 res://fondoniv2.tscn
 res://game over.tscn
-res://monstruitos.tscn
 res://menu inicio.tscn
 res://Tutorial.tscn
-res://pers_1.gd
-res://monstruitos.gd
-res://fondoniv_1.gd
+res://monstruitos.tscn
+res://areabala.tscn
