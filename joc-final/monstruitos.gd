@@ -18,6 +18,17 @@ func _physics_process(delta):
 
 	move_and_slide()
 
+	if Globalingo.m1 == true:
+		Globalingo.videsM -=1
+		print(Globalingo.videsM)
+		Globalingo.m1 = false
+		
+	if Globalingo.videsM == 0:
+		m = false
+		$saltalcap.queue_free()
+		$areamonstre.queue_free()
+		$AnimatedSprite2D.play("death")
+	
 	
 func _on_areamonstre_body_entered(body: Node2D) -> void:
 	get_tree().change_scene_to_file("res://game over.tscn")

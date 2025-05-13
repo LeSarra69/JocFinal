@@ -28,9 +28,9 @@ func _physics_process(delta):
 	
 	move_and_slide()
 
-	if Globalingo.penis == true and Globalingo.m == true:
+	if Globalingo.pers2 == true:
 		Globalingo.vides -=1
-		Globalingo.m = false
+		Globalingo.pers2 = false
 		print(Globalingo.vides)
 
 
