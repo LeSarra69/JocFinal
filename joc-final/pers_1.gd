@@ -34,14 +34,12 @@ func _physics_process(delta):
 	var shoot = bala.instantiate()
 	if Input.is_action_just_pressed("fbala"):
 		get_parent().add_child(shoot)
-		shoot.position = $AnimatedSprite2D.global_position
+		if miradret:
+			shoot.position = $spownpoint1.global_position
 		if not miradret:
+			shoot.position = $spownpoint2.global_position
 			shoot.scale.x *=-1
 			shoot.vbala *=-1
 			
 	
 	move_and_slide()
-
-
-func _on_polla_body_entered(body: Node2D) -> void:
-	get_tree().change_scene_to_file("res://game over.tscn")

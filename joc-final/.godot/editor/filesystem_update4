@@ -1,3 +1,4 @@
+res://monstruitos.tscn
 res://Nivell1.tscn
 res://Pers1.tscn
 res://pers2.tscn
@@ -6,5 +7,10 @@ res://fondoniv2.tscn
 res://game over.tscn
 res://menu inicio.tscn
 res://Tutorial.tscn
-res://monstruitos.tscn
 res://areabala.tscn
+res://nivell3.tscn
+res://monstruitos.gd
+res://codi bala.gd
+res://pers_1.gd
+res://globalingo.gd
+res://pers_2.gd

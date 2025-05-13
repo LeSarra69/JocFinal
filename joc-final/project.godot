@@ -15,6 +15,10 @@ run/main_scene="uid://d0yu8qi8dncpi"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Globalingo="*res://globalingo.gd"
+
 [input]
 
 fsalt={
