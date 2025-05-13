@@ -1,6 +1,9 @@
-Sprite2D
+AnimatedSprite2D
 CollisionShape2D
 Area2D
+Sprite2D
+Timer
+Line2D
 CharacterBody2D
 VisibleOnScreenNotifier2D
 TextureProgressBar
@@ -10,5 +13,3 @@ VBoxContainer
 Button
 StaticBody2D
 Node2D
-Label
-ParallaxLayer

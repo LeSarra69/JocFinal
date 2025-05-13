@@ -44,4 +44,4 @@ func _physics_process(delta):
 
 
 func _on_polla_body_entered(body: Node2D) -> void:
-	get_tree().reload_current_scene()
+	get_tree().change_scene_to_file("res://game over.tscn")

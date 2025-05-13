@@ -1,9 +1,10 @@
-[gd_scene load_steps=27 format=3 uid="uid://bvlbtr2nvffx0"]
+[gd_scene load_steps=28 format=3 uid="uid://bvlbtr2nvffx0"]
 
 [ext_resource type="Script" uid="uid://jepcitil7ja0" path="res://pers_2.gd" id="1_vkgb0"]
 [ext_resource type="Texture2D" uid="uid://cwrlamngchqju" path="res://Knight 2D Pixel Art/Sprites/without_outline/RUN.png" id="2_u5014"]
 [ext_resource type="Texture2D" uid="uid://vs8egubom1m6" path="res://Knight 2D Pixel Art/Sprites/without_outline/IDLE.png" id="3_ves22"]
 [ext_resource type="Texture2D" uid="uid://yse2cl4uunjj" path="res://Knight 2D Pixel Art/Sprites/without_outline/JUMP.png" id="4_jbt4h"]
+[ext_resource type="Script" uid="uid://brv2gmv2w003w" path="res://timer_bar.gd" id="5_ves22"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g21ax"]
 atlas = ExtResource("2_u5014")
@@ -182,3 +183,14 @@ shape = SubResource("CapsuleShape2D_vkgb0")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(108, 260)
+
+[node name="TimerBar" type="Line2D" parent="."]
+points = PackedVector2Array(-467, -57, 683, -55)
+default_color = Color(0.844809, 0.885945, 0.966426, 1)
+script = ExtResource("5_ves22")
+
+[node name="Timer" type="Timer" parent="TimerBar"]
+autostart = true
+
+[connection signal="time_to_die" from="TimerBar" to="." method="_on_timer_bar_time_to_die"]
+[connection signal="timeout" from="TimerBar/Timer" to="TimerBar" method="_on_timer_timeout"]

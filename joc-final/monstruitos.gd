@@ -10,7 +10,7 @@ func _physics_process(delta):
 		m = true
 	if m== true:
 		$collisionterra/AnimatedSprite2D.play("default")
-		velocity.x = speedx * delta
+		velocity.x = - speedx * delta
 		velocity.y += gravetat * delta
 	move_and_slide()
 
@@ -19,3 +19,11 @@ func _on_areabala_body_entered(body: CharacterBody2D) -> void:
 	print("mort")
 	$".".queue_free()
 	
+
+
+func _on_areamonstre_body_entered(body: Node2D) -> void:
+	get_tree().change_scene_to_file("res://game over.tscn")
+
+
+func _on_saltalcap_body_entered(body: Node2D) -> void:
+	pass
