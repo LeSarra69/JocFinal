@@ -1,3 +1,6 @@
+VisibleOnScreenNotifier2D
+TextureProgressBar
+Control
 Camera2D
 VBoxContainer
 Button
@@ -9,6 +12,3 @@ Sprite2D
 CharacterBody2D
 Label
 ParallaxLayer
-AnimatedSprite2D
-TileMap
-ParallaxBackground

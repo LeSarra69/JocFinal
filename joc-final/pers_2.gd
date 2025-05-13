@@ -27,3 +27,7 @@ func _physics_process(delta):
 	velocity.y += gravetat * delta
 	
 	move_and_slide()
+
+
+func _on_visible_on_screen_notifier_2d_screen_exited() -> void:
+	get_tree().change_scene_to_file("res://game over.tscn")

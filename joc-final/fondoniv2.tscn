@@ -207,6 +207,10 @@ shape = SubResource("RectangleShape2D_u6jkv")
 
 [node name="Pers 1" parent="." instance=ExtResource("11_a1o4x")]
 
+[node name="VisibleOnScreenNotifier2D2" type="VisibleOnScreenNotifier2D" parent="Pers 1"]
+position = Vector2(-6, -3)
+
 [node name="pers2" parent="." instance=ExtResource("12_twg3m")]
 
 [connection signal="body_entered" from="Area2D4" to="Area2D4" method="_on_body_entered"]
+[connection signal="screen_exited" from="Pers 1/VisibleOnScreenNotifier2D2" to="pers2" method="_on_visible_on_screen_notifier_2d_screen_exited"]
