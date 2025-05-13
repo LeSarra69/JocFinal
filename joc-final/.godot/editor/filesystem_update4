@@ -1,0 +1,15 @@
+res://barratemps.tscn
+res://control.gd
+res://Nivell1.tscn
+res://Pers1.tscn
+res://pers2.tscn
+res://fondoniv_1.tscn
+res://fondoniv2.tscn
+res://game over.tscn
+res://monstruitos.tscn
+res://menu inicio.tscn
+res://Tutorial.tscn
+res://areabala.tscn
+res://pers_1.gd
+res://fondoniv_2.gd
+res://pers_2.gd
