@@ -28,10 +28,10 @@ func _physics_process(delta):
 	
 	move_and_slide()
 
-	if Globalingo.penis == true:
-		print("hola")
-		print(Globalingo.vides)
+	if Globalingo.penis == true and Globalingo.m == true:
 		Globalingo.vides -=1
+		Globalingo.m = false
+		print(Globalingo.vides)
 
 
 func _on_visible_on_screen_notifier_2d_screen_exited() -> void:

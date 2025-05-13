@@ -7,6 +7,6 @@ func _process(delta):
 
 
 func _on_body_entered(body: CharacterBody2D) -> void:
-	Globalingo.penis = true
+	Globalingo.penis = true 
+	Globalingo.m = true
 	queue_free()
-	
