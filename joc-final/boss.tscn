@@ -259,7 +259,6 @@ position = Vector2(161, 10)
 scale = Vector2(5.47857, 5.36559)
 sprite_frames = SubResource("SpriteFrames_1s1j2")
 animation = &"camina"
-frame_progress = 0.169459
 
 [connection signal="area_entered" from="area_bales" to="." method="_on_area_bales_area_entered"]
 [connection signal="body_entered" from="area_bales" to="." method="_on_area_bales_body_entered"]

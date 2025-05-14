@@ -1,0 +1,205 @@
+[gd_scene load_steps=29 format=3 uid="uid://bnp41m3n4sr5c"]
+
+[ext_resource type="Script" uid="uid://cre4aljvstyrv" path="res://personatge_2-3.gd" id="1_rae2k"]
+[ext_resource type="Texture2D" uid="uid://cwrlamngchqju" path="res://Knight 2D Pixel Art/Sprites/without_outline/RUN.png" id="2_y1gqt"]
+[ext_resource type="Texture2D" uid="uid://vs8egubom1m6" path="res://Knight 2D Pixel Art/Sprites/without_outline/IDLE.png" id="3_wli8b"]
+[ext_resource type="Texture2D" uid="uid://yse2cl4uunjj" path="res://Knight 2D Pixel Art/Sprites/without_outline/JUMP.png" id="4_hw6hv"]
+[ext_resource type="Script" uid="uid://brv2gmv2w003w" path="res://timer_bar.gd" id="5_mq018"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g21ax"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(0, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_as7sq"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(96, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_shdl5"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(192, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bps2t"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(288, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ld5sb"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(384, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fbrcw"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(480, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vpq2e"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(576, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q1jjn"]
+atlas = ExtResource("2_y1gqt")
+region = Rect2(672, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bf6ig"]
+atlas = ExtResource("3_wli8b")
+region = Rect2(0, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y4fl7"]
+atlas = ExtResource("3_wli8b")
+region = Rect2(96, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n3h28"]
+atlas = ExtResource("3_wli8b")
+region = Rect2(192, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eis6n"]
+atlas = ExtResource("3_wli8b")
+region = Rect2(288, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uqefw"]
+atlas = ExtResource("3_wli8b")
+region = Rect2(384, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsgb0"]
+atlas = ExtResource("3_wli8b")
+region = Rect2(480, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v2osa"]
+atlas = ExtResource("3_wli8b")
+region = Rect2(576, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfy2h"]
+atlas = ExtResource("4_hw6hv")
+region = Rect2(0, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vvmh4"]
+atlas = ExtResource("4_hw6hv")
+region = Rect2(96, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bd461"]
+atlas = ExtResource("4_hw6hv")
+region = Rect2(192, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mph0a"]
+atlas = ExtResource("4_hw6hv")
+region = Rect2(288, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8ylc"]
+atlas = ExtResource("4_hw6hv")
+region = Rect2(384, 0, 96, 84)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vhcoq"]
+animations = [{
+"frames": [{
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_g21ax")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_as7sq")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_shdl5")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_bps2t")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_ld5sb")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_fbrcw")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_vpq2e")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_q1jjn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bf6ig")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y4fl7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n3h28")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eis6n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uqefw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsgb0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v2osa")
+}],
+"loop": true,
+"name": &"nquiet",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kfy2h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vvmh4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bd461")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mph0a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8ylc")
+}],
+"loop": true,
+"name": &"salt2",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pq1qg"]
+radius = 7.0
+height = 40.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tyiiv"]
+size = Vector2(35, 16)
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_rae2k")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(45.8981, 457.122)
+scale = Vector2(1.02296, 1.19337)
+sprite_frames = SubResource("SpriteFrames_vhcoq")
+animation = &"salt2"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(44, 456)
+shape = SubResource("CapsuleShape2D_pq1qg")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(44, 456)
+zoom = Vector2(1.5, 1.5)
+
+[node name="TimerBar" type="Line2D" parent="."]
+points = PackedVector2Array(-467, -57, 683, -55)
+default_color = Color(0.844809, 0.885945, 0.966426, 1)
+script = ExtResource("5_mq018")
+
+[node name="Timer" type="Timer" parent="TimerBar"]
+autostart = true
+
+[node name="area impacte" type="Area2D" parent="."]
+
+[node name="collision impacte" type="CollisionShape2D" parent="area impacte"]
+position = Vector2(43.5, 456)
+shape = SubResource("RectangleShape2D_tyiiv")
+
+[connection signal="timeout" from="TimerBar/Timer" to="TimerBar" method="_on_timer_timeout"]
