@@ -1,18 +1,19 @@
 res://Nivell1.tscn
-res://globalingo.gd
 res://Pers1.tscn
 res://pers2.tscn
 res://fondoniv_1.tscn
 res://fondoniv2.tscn
-res://monstruitos.tscn
+res://setas.tscn
 res://game over.tscn
 res://menu inicio.tscn
 res://Tutorial.tscn
 res://areabala.tscn
 res://nivell3.tscn
+res://maligno.tscn
+res://maligno.gd
 res://codi bala.gd
+res://globalingo.gd
 res://monstruitos.gd
 res://pers_2.gd
-res://setas.tscn
-res://maligno.gd
-res://maligno.tscn
+res://boss.gd
+res://boss.tscn

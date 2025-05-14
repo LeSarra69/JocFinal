@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://bvlbtr2nvffx0"]
+[gd_scene load_steps=29 format=3 uid="uid://bvlbtr2nvffx0"]
 
 [ext_resource type="Script" uid="uid://jepcitil7ja0" path="res://pers_2.gd" id="1_vkgb0"]
 [ext_resource type="Texture2D" uid="uid://cwrlamngchqju" path="res://Knight 2D Pixel Art/Sprites/without_outline/RUN.png" id="2_u5014"]
@@ -165,8 +165,11 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vkgb0"]
-radius = 12.0
+radius = 18.0
 height = 58.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ves22"]
+size = Vector2(68, 16)
 
 [node name="pers2" type="CharacterBody2D"]
 script = ExtResource("1_vkgb0")
@@ -178,7 +181,7 @@ sprite_frames = SubResource("SpriteFrames_wnxm7")
 animation = &"salt2"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(75, 433)
+position = Vector2(71, 427)
 shape = SubResource("CapsuleShape2D_vkgb0")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -192,5 +195,12 @@ script = ExtResource("5_ves22")
 [node name="Timer" type="Timer" parent="TimerBar"]
 autostart = true
 
+[node name="area impacte" type="Area2D" parent="."]
+
+[node name="collision impacte" type="CollisionShape2D" parent="area impacte"]
+position = Vector2(72, 426)
+shape = SubResource("RectangleShape2D_ves22")
+
 [connection signal="time_to_die" from="TimerBar" to="." method="_on_timer_bar_time_to_die"]
 [connection signal="timeout" from="TimerBar/Timer" to="TimerBar" method="_on_timer_timeout"]
+[connection signal="area_entered" from="area impacte" to="." method="_on_area_impacte_area_entered"]

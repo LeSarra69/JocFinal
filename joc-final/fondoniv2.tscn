@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://earylxcfpeuy"]
+[gd_scene load_steps=20 format=3 uid="uid://earylxcfpeuy"]
 
 [ext_resource type="Script" uid="uid://xytotw3irjr" path="res://fondoniv_2.gd" id="1_rks0c"]
 [ext_resource type="Texture2D" uid="uid://pavi25w3fe46" path="res://sky.png" id="1_wowoo"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://djwffore4vtpi" path="res://parallax-mountain-foreground-trees.png" id="7_0p81f"]
 [ext_resource type="Texture2D" uid="uid://cljfoa1hqy0j3" path="res://parallax-mountain-trees.png" id="8_7s0qg"]
 [ext_resource type="Script" uid="uid://dt0posqti3a52" path="res://area_2d_4.gd" id="10_u6jkv"]
+[ext_resource type="Texture2D" uid="uid://bwmim0guubieu" path="res://OIP-removebg-preview.png" id="11_7s0qg"]
 [ext_resource type="PackedScene" uid="uid://beyp7tg1r5oo2" path="res://Pers1.tscn" id="11_a1o4x"]
 [ext_resource type="PackedScene" uid="uid://bvlbtr2nvffx0" path="res://pers2.tscn" id="12_twg3m"]
 [ext_resource type="PackedScene" uid="uid://kwm5jrflqjnh" path="res://monstruitos.tscn" id="13_twg3m"]
@@ -207,8 +208,13 @@ script = ExtResource("10_u6jkv")
 position = Vector2(3619, 413.75)
 shape = SubResource("RectangleShape2D_u6jkv")
 
+[node name="porta" type="Sprite2D" parent="Area2D4"]
+position = Vector2(3614, 460)
+scale = Vector2(1.55848, 1.70202)
+texture = ExtResource("11_7s0qg")
+
 [node name="Pers 1" parent="." instance=ExtResource("11_a1o4x")]
-position = Vector2(175, 91)
+position = Vector2(179, 87)
 
 [node name="VisibleOnScreenNotifier2D2" type="VisibleOnScreenNotifier2D" parent="Pers 1"]
 visible = false
@@ -217,11 +223,23 @@ position = Vector2(-6, -3)
 [node name="pers2" parent="." instance=ExtResource("12_twg3m")]
 position = Vector2(55, 54)
 
-[node name="Node2D" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(1356, 610)
+[node name="seta" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(2327, 588)
+
+[node name="seta4" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(2764, 602)
+
+[node name="seta5" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(2620, 598)
+
+[node name="seta3" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(3165, 599)
+
+[node name="seta2" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(1763, 592)
 
 [node name="maligno" parent="." instance=ExtResource("14_0p81f")]
-position = Vector2(622, 80)
+position = Vector2(790, 125)
 
 [connection signal="body_entered" from="Area2D4" to="Area2D4" method="_on_body_entered"]
 [connection signal="screen_exited" from="Pers 1/VisibleOnScreenNotifier2D2" to="pers2" method="_on_visible_on_screen_notifier_2d_screen_exited"]

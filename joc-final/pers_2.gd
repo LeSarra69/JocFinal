@@ -28,10 +28,8 @@ func _physics_process(delta):
 	
 	move_and_slide()
 
-	if Globalingo.pers2 == true:
-		Globalingo.vides -=1
-		Globalingo.pers2 = false
-		print(Globalingo.vides)
+
+
 
 
 func _on_visible_on_screen_notifier_2d_screen_exited() -> void:
@@ -40,3 +38,8 @@ func _on_visible_on_screen_notifier_2d_screen_exited() -> void:
 
 func _on_timer_bar_time_to_die() -> void:
 	get_tree().change_scene_to_file("res://game over.tscn")
+
+
+func _on_area_impacte_area_entered(area: Area2D) -> void:
+	Globalingo.vides -=1
+	print(Globalingo.vides)
