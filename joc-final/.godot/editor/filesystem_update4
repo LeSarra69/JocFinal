@@ -1,4 +1,3 @@
-res://Tutorial.tscn
 res://Nivell1.tscn
 res://Pers1.tscn
 res://pers2.tscn
@@ -7,7 +6,9 @@ res://fondoniv2.tscn
 res://nivell3.tscn
 res://game over.tscn
 res://menu inicio.tscn
+res://Tutorial.tscn
 res://areabala.tscn
 res://setas.tscn
 res://maligno.tscn
 res://boss.tscn
+res://globalingo.gd
