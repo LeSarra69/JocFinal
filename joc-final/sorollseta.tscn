@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c04kvlpq5f5dv"]
+
+[ext_resource type="AudioStream" uid="uid://deae6u7atap4e" path="res://seta-aplastada.mp3" id="1_unh7a"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_unh7a")
+autoplay = true

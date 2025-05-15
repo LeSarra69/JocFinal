@@ -1,6 +1,6 @@
 extends CharacterBody2D
 var conyete = 1
-var speedx = 2000
+var speedx = 7000
 var speedy = 100
 var s= false
 var gravetat = ProjectSettings.get_setting("physics/2d/default_gravity")
@@ -34,6 +34,7 @@ func _physics_process(delta):
 	
 func _on_animated_sprite_2d_animation_finished():
 		queue_free()
+		get_tree().change_scene_to_file("res://victoria.tscn")
 
 
 func _on_area_bales_area_entered(area: Area2D) -> void:

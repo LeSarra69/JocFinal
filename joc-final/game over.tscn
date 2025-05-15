@@ -1,22 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://0jpw5p6qs4nw"]
+[gd_scene load_steps=7 format=3 uid="uid://0jpw5p6qs4nw"]
 
 [ext_resource type="Script" uid="uid://de7ws47oarx45" path="res://game_over.gd" id="1_v7q4x"]
 [ext_resource type="Texture2D" uid="uid://byvr45b0k28jk" path="res://sexisprite.png" id="2_v7q4x"]
-
-[sub_resource type="Animation" id="Animation_5b4wn"]
-resource_name = "new_animation"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/sexi:scale")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(0.112527, 0.116698), Vector2(1.23036, 1.23719)]
-}
+[ext_resource type="AudioStream" uid="uid://cyepbc4slhirj" path="res://ue-ue-ue-ueeee.mp3" id="3_5b4wn"]
 
 [sub_resource type="Animation" id="Animation_lfvhc"]
 length = 0.001
@@ -31,6 +17,21 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Vector2(0.112527, 0.116698)]
+}
+
+[sub_resource type="Animation" id="Animation_5b4wn"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/sexi:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.112527, 0.116698), Vector2(1.23036, 1.23719)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fc6k1"]
@@ -74,7 +75,11 @@ scale = Vector2(0.112527, 0.116698)
 texture = ExtResource("2_v7q4x")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_5b4wn")
+volume_db = 5.622
+pitch_scale = 1.25
+autoplay = true
 
-[connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
+[connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer2/Button2" to="." method="_on_button_2_pressed"]

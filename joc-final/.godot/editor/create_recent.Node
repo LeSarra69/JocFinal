@@ -1,6 +1,9 @@
 AudioStreamPlayer
 Sprite2D
 AnimationPlayer
+AnimationTree
+Button
+VBoxContainer
 StaticBody2D
 CollisionShape2D
 Area2D
@@ -9,7 +12,3 @@ HBoxContainer
 CanvasLayer
 AnimatedSprite2D
 CharacterBody2D
-ParallaxLayer
-ParallaxBackground
-Parallax2D
-TileMap

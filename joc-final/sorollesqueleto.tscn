@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://owllm6cws2k"]
+
+[ext_resource type="AudioStream" uid="uid://b3p7fqsam3siq" path="res://Lego Break _ Fall Apart - Sound Effect (HD) [8Z0JhcWURDY].mp3" id="1_bxapw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_bxapw")
+autoplay = true

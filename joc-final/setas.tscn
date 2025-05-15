@@ -1,8 +1,9 @@
-[gd_scene load_steps=25 format=3 uid="uid://rbtfrdj7oq12"]
+[gd_scene load_steps=26 format=3 uid="uid://rbtfrdj7oq12"]
 
 [ext_resource type="Script" uid="uid://c2b7tf6eceb4t" path="res://monstruitos.gd" id="1_82ved"]
 [ext_resource type="Texture2D" uid="uid://b2htftyegj4ac" path="res://Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Die.png" id="2_2ctkh"]
 [ext_resource type="Texture2D" uid="uid://qhp51rjgj3jk" path="res://Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Run.png" id="3_y3vk6"]
+[ext_resource type="AudioStream" uid="uid://deae6u7atap4e" path="res://seta-aplastada.mp3" id="4_2ctkh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4owgy"]
 size = Vector2(35, 2)
@@ -171,6 +172,9 @@ position = Vector2(-1, -46)
 scale = Vector2(2.2, 2.20313)
 sprite_frames = SubResource("SpriteFrames_k11fl")
 animation = &"death"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_2ctkh")
 
 [connection signal="body_entered" from="areamonstre" to="." method="_on_areamonstre_body_entered"]
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
