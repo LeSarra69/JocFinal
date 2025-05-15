@@ -1,7 +1,4 @@
-res://cors1.tscn
 res://Nivell1.tscn
-res://pers_1.gd
-res://pers2.tscn
 res://fondoniv_1.tscn
 res://fondoniv2.tscn
 res://nivell3.tscn
@@ -16,13 +13,5 @@ res://Nivell33333.tscn
 res://pers1-3.tscn
 res://personatge2-3.tscn
 res://Pers1.tscn
-res://pers_2.gd
-res://cors_1.gd
-res://area_2d_4.gd
-res://monstruitos.gd
-res://maligno.gd
-res://fondoniv_2.gd
-res://globalingo.gd
-res://pers_1-3.gd
-res://personatge_2-3.gd
-res://animated_sprite_2d.gd
+res://pers2.tscn
+res://cors1.tscn
