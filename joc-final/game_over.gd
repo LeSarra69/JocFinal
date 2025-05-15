@@ -7,3 +7,7 @@ func _on_button_pressed() -> void:
 
 func _on_button_2_pressed() -> void:
 	get_tree().change_scene_to_file("res://menu inicio.tscn")
+
+
+func _on_tree_entered() -> void:
+	$AnimationPlayer.play("new_animation")

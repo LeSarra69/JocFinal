@@ -7,7 +7,7 @@ var vides = 3
 var vides2 = 3
 var videsM = 5
 var videsB = 40
-
+var mort_insta = false
 
 
 func _ready() -> void:
@@ -16,6 +16,7 @@ func _ready() -> void:
 	vides2 = 3
 	videsM = 5
 	videsB = 40
+	mort_insta = false
 func _physics_process(delta: float) -> void:
 	if vides == 0:
 		get_tree().change_scene_to_file("res://game over.tscn")
@@ -25,4 +26,6 @@ func _physics_process(delta: float) -> void:
 		vides2 = 3
 		videsM = 5
 		videsB = 40
+	elif mort_insta == true:
+		get_tree().change_scene_to_file("res://game over.tscn")
 		

@@ -11,7 +11,7 @@ size = Vector2(35, 2)
 size = Vector2(67, 39)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ovbjy"]
-size = Vector2(61, 20)
+size = Vector2(58, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8lpsd"]
 atlas = ExtResource("2_2ctkh")
@@ -158,10 +158,10 @@ shape = SubResource("RectangleShape2D_4owgy")
 position = Vector2(-2.5, -12.5)
 shape = SubResource("RectangleShape2D_ckfdn")
 
-[node name="saltalcap" type="Area2D" parent="."]
+[node name="saltalcap" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="saltalcap"]
-position = Vector2(-2.5, -42)
+position = Vector2(-1, -40)
 shape = SubResource("RectangleShape2D_ovbjy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -173,5 +173,4 @@ sprite_frames = SubResource("SpriteFrames_k11fl")
 animation = &"death"
 
 [connection signal="body_entered" from="areamonstre" to="." method="_on_areamonstre_body_entered"]
-[connection signal="body_entered" from="saltalcap" to="." method="_on_saltalcap_body_entered"]
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

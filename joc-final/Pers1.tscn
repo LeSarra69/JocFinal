@@ -157,11 +157,11 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dll4f"]
-radius = 16.0
+radius = 20.0
 height = 52.0
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_du2vc"]
-height = 38.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_du2vc"]
+size = Vector2(30, 20)
 
 [node name="Pers 1" type="CharacterBody2D"]
 position = Vector2(6, 3)
@@ -222,7 +222,7 @@ scale = Vector2(1.76562, 1.79687)
 [node name="areaimpacte2" type="Area2D" parent="."]
 
 [node name="collision impacte1" type="CollisionShape2D" parent="areaimpacte2"]
-position = Vector2(31, 450)
-shape = SubResource("CapsuleShape2D_du2vc")
+position = Vector2(31, 444)
+shape = SubResource("RectangleShape2D_du2vc")
 
 [connection signal="area_entered" from="areaimpacte2" to="." method="_on_areaimpacte_2_area_entered"]

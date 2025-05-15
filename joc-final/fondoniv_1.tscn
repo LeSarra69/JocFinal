@@ -1,6 +1,6 @@
 [gd_scene load_steps=23 format=3 uid="uid://cwuudo0lkblda"]
 
-[ext_resource type="Texture2D" uid="uid://bmtbslbio7hsi" path="res://back.png" id="1_aqlvw"]
+[ext_resource type="Texture2D" uid="uid://bmtbslbio7hsi" path="res://Fondos Nivells/Forest of Illusion Files/Layers/back.png" id="1_aqlvw"]
 [ext_resource type="Script" uid="uid://wwifq6kikcct" path="res://fondoniv_1.gd" id="1_qiwfi"]
 [ext_resource type="Texture2D" uid="uid://cflpb03d7xmnf" path="res://Captura de pantalla 2025-05-10 203842.png" id="2_628xn"]
 [ext_resource type="Texture2D" uid="uid://bs0lipaiomxhx" path="res://middle.png" id="3_628xn"]

@@ -25,6 +25,7 @@ func _on_saltalcap_body_entered(body: Node2D) -> void:
 	m = false
 	$saltalcap.queue_free()
 	$areamonstre.queue_free()
+	$collisionterra.queue_free()
 	$AnimatedSprite2D.play("death")
 
 

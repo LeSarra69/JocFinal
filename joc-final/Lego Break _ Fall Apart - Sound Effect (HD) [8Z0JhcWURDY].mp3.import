@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3p7fqsam3siq"
+path="res://.godot/imported/Lego Break _ Fall Apart - Sound Effect (HD) [8Z0JhcWURDY].mp3-2b8b416a76f9610d8688007ea3ab040c.mp3str"
+
+[deps]
+
+source_file="res://Lego Break _ Fall Apart - Sound Effect (HD) [8Z0JhcWURDY].mp3"
+dest_files=["res://.godot/imported/Lego Break _ Fall Apart - Sound Effect (HD) [8Z0JhcWURDY].mp3-2b8b416a76f9610d8688007ea3ab040c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

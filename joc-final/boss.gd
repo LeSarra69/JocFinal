@@ -1,6 +1,6 @@
 extends CharacterBody2D
 var conyete = 1
-var speedx = 10000
+var speedx = 2000
 var speedy = 100
 var s= false
 var gravetat = ProjectSettings.get_setting("physics/2d/default_gravity")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://earylxcfpeuy"]
+[gd_scene load_steps=47 format=3 uid="uid://earylxcfpeuy"]
 
 [ext_resource type="Script" uid="uid://xytotw3irjr" path="res://fondoniv_2.gd" id="1_rks0c"]
 [ext_resource type="Texture2D" uid="uid://pavi25w3fe46" path="res://sky.png" id="1_wowoo"]
@@ -16,9 +16,10 @@
 [ext_resource type="PackedScene" uid="uid://bvlbtr2nvffx0" path="res://pers2.tscn" id="12_twg3m"]
 [ext_resource type="PackedScene" uid="uid://kwm5jrflqjnh" path="res://monstruitos.tscn" id="13_twg3m"]
 [ext_resource type="PackedScene" uid="uid://ojlm7qthlf1r" path="res://maligno.tscn" id="14_0p81f"]
+[ext_resource type="PackedScene" uid="uid://bkrvsq0mgptft" path="res://boss.tscn" id="17_hgwm5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nw7bw"]
-size = Vector2(14236, 83.5)
+size = Vector2(17602, 83.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_44k7d"]
 size = Vector2(89.5, 778)
@@ -222,7 +223,7 @@ script = ExtResource("1_rks0c")
 [node name="Area2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(811, 690.25)
+position = Vector2(2494, 690.25)
 shape = SubResource("RectangleShape2D_nw7bw")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
@@ -393,49 +394,106 @@ position = Vector2(1151, 4)
 script = ExtResource("10_u6jkv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
-position = Vector2(3612, 528)
+position = Vector2(2156, 210)
 shape = SubResource("CapsuleShape2D_n46kx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D4"]
-position = Vector2(3616, 505)
+position = Vector2(2165, 193)
 scale = Vector2(5.91992, 5.63672)
 sprite_frames = SubResource("SpriteFrames_v1cw1")
 frame_progress = 0.93011
 script = ExtResource("12_hgwm5")
 
 [node name="Pers 1" parent="." instance=ExtResource("11_a1o4x")]
-position = Vector2(179, 87)
+position = Vector2(716, -43)
 
 [node name="VisibleOnScreenNotifier2D2" type="VisibleOnScreenNotifier2D" parent="Pers 1"]
 visible = false
 position = Vector2(-6, -3)
 
 [node name="pers2" parent="." instance=ExtResource("12_twg3m")]
-position = Vector2(55, 54)
+position = Vector2(926, -224)
 
 [node name="seta" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(2327, 588)
+position = Vector2(2602, 601)
 
 [node name="seta4" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(2764, 602)
+position = Vector2(2978, 596)
 
 [node name="seta5" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(2620, 598)
+position = Vector2(2801, 614)
 
 [node name="seta3" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(3165, 599)
+position = Vector2(3387, 620)
+
+[node name="maligno10" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(3521, 214)
 
 [node name="seta2" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(1751, 580)
+position = Vector2(3502, 613)
+
+[node name="maligno8" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(4511, 209)
+
+[node name="maligno9" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(4259, 208)
+
+[node name="maligno7" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(4789, 207)
+
+[node name="maligno6" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(2978, 202)
+
+[node name="maligno5" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(3691, 193)
+
+[node name="maligno4" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(2589, 197)
+
+[node name="maligno3" parent="." instance=ExtResource("14_0p81f")]
+position = Vector2(2209, 214)
 
 [node name="maligno" parent="." instance=ExtResource("14_0p81f")]
-position = Vector2(790, 125)
+position = Vector2(1543, 185)
 
 [node name="seta6" parent="." instance=ExtResource("13_twg3m")]
-position = Vector2(1464, 580)
+position = Vector2(2032, 608)
 
 [node name="maligno2" parent="." instance=ExtResource("14_0p81f")]
-position = Vector2(1719, 158)
+position = Vector2(2077, 194)
+
+[node name="seta8" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(5461, 608)
+
+[node name="seta9" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(3118, 613)
+
+[node name="seta10" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(3632, 590)
+
+[node name="seta12" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(4163, 593)
+
+[node name="seta11" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(5224, 601)
+
+[node name="seta7" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(2208, 602)
+
+[node name="seta13" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(4407, 604)
+
+[node name="seta14" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(4967, 602)
+
+[node name="seta15" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(4675, 604)
+
+[node name="seta16" parent="." instance=ExtResource("13_twg3m")]
+position = Vector2(5627, 602)
+
+[node name="boss" parent="." instance=ExtResource("17_hgwm5")]
+position = Vector2(11011, 388)
 
 [connection signal="body_entered" from="Area2D4" to="Area2D4" method="_on_body_entered"]
 [connection signal="screen_exited" from="Pers 1/VisibleOnScreenNotifier2D2" to="pers2" method="_on_visible_on_screen_notifier_2d_screen_exited"]

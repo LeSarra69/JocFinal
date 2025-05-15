@@ -15,3 +15,10 @@ res://personatge2-3.tscn
 res://Pers1.tscn
 res://pers2.tscn
 res://cors1.tscn
+res://monstruitos.gd
+res://maligno.gd
+res://boss.gd
+res://mort insta.gd
+res://globalingo.gd
+res://game_over.gd
+res://animation_player.gd

@@ -131,25 +131,25 @@ region = Rect2(1050, 0, 70, 93)
 [sub_resource type="SpriteFrames" id="SpriteFrames_1s1j2"]
 animations = [{
 "frames": [{
-"duration": 0.8,
+"duration": 1.1,
 "texture": SubResource("AtlasTexture_6xxrv")
 }, {
-"duration": 0.8,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_skx2t")
 }, {
-"duration": 0.7,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_lnbgr")
 }, {
-"duration": 0.7,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_o1i15")
 }, {
-"duration": 0.7,
+"duration": 1.1,
 "texture": SubResource("AtlasTexture_we8h1")
 }, {
-"duration": 0.7,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_kvofc")
 }, {
-"duration": 0.7,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_ef0k6")
 }],
 "loop": true,
@@ -259,6 +259,7 @@ position = Vector2(161, 10)
 scale = Vector2(5.47857, 5.36559)
 sprite_frames = SubResource("SpriteFrames_1s1j2")
 animation = &"camina"
+frame_progress = 0.258459
 
 [connection signal="area_entered" from="area_bales" to="." method="_on_area_bales_area_entered"]
 [connection signal="body_entered" from="area_bales" to="." method="_on_area_bales_body_entered"]
