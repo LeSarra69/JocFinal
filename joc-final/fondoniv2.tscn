@@ -28,7 +28,7 @@ size = Vector2(80, 637)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n46kx"]
 radius = 37.0
-height = 236.0
+height = 226.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a6ifo"]
 atlas = ExtResource("11_n46kx")
@@ -391,7 +391,6 @@ metadata/_edit_use_anchors_ = true
 [node name="Area2D4" type="Area2D" parent="."]
 position = Vector2(1151, 4)
 script = ExtResource("10_u6jkv")
-next_scene_path = null
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
 position = Vector2(3612, 528)

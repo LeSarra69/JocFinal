@@ -1,8 +1,9 @@
-[gd_scene load_steps=25 format=3 uid="uid://bqkvxao2ejd1i"]
+[gd_scene load_steps=27 format=3 uid="uid://bqkvxao2ejd1i"]
 
 [ext_resource type="Script" uid="uid://dqcbdb7d8ugla" path="res://pers_1-3.gd" id="1_rfoq1"]
 [ext_resource type="Texture2D" uid="uid://bbkvv1uus1su8" path="res://per1.1.png" id="2_njlwg"]
 [ext_resource type="Texture2D" uid="uid://81m2vg3ol822" path="res://pers1.2.png" id="3_370mu"]
+[ext_resource type="PackedScene" uid="uid://h38fycy5wgug" path="res://cors1.tscn" id="4_njlwg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7v25k"]
 atlas = ExtResource("2_njlwg")
@@ -159,6 +160,10 @@ animations = [{
 radius = 9.0
 height = 28.0
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_370mu"]
+radius = 2.0
+height = 20.0
+
 [node name="personatge 1-3" type="CharacterBody2D"]
 script = ExtResource("1_rfoq1")
 
@@ -181,3 +186,43 @@ position = Vector2(-23, 436)
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
 position = Vector2(10, 453)
 scale = Vector2(1.825, 1.875)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+offset_left = -185.0
+offset_top = 20.0
+offset_right = 552.0
+offset_bottom = 79.0
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/HBoxContainer"]
+custom_minimum_size = Vector2(243, 0)
+layout_mode = 2
+
+[node name="cor" parent="CanvasLayer/HBoxContainer/TextureRect" instance=ExtResource("4_njlwg")]
+position = Vector2(210.875, 36.625)
+scale = Vector2(1.76562, 1.79687)
+
+[node name="TextureRect3" type="TextureRect" parent="CanvasLayer/HBoxContainer"]
+custom_minimum_size = Vector2(243, 0)
+layout_mode = 2
+
+[node name="cor" parent="CanvasLayer/HBoxContainer/TextureRect3" instance=ExtResource("4_njlwg")]
+position = Vector2(-3.12497, 36.625)
+scale = Vector2(1.76562, 1.79687)
+
+[node name="TextureRect2" type="TextureRect" parent="CanvasLayer/HBoxContainer"]
+custom_minimum_size = Vector2(243, 0)
+layout_mode = 2
+
+[node name="cor" parent="CanvasLayer/HBoxContainer/TextureRect2" instance=ExtResource("4_njlwg")]
+position = Vector2(-217.125, 36.625)
+scale = Vector2(1.76562, 1.79687)
+
+[node name="areaimpacte2" type="Area2D" parent="."]
+
+[node name="collision impacte1" type="CollisionShape2D" parent="areaimpacte2"]
+position = Vector2(9, 455)
+shape = SubResource("CapsuleShape2D_370mu")
+
+[connection signal="area_entered" from="areaimpacte2" to="." method="_on_areaimpacte_2_area_entered"]

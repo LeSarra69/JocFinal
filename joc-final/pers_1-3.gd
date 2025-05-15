@@ -43,3 +43,17 @@ func _physics_process(delta):
 			
 	
 	move_and_slide()
+	
+
+
+func _on_areaimpacte_2_area_entered(area: Area2D) -> void:
+	Globalingo.vides -= 1
+	if Globalingo.vides == 2:
+			$CanvasLayer/HBoxContainer/TextureRect2/cor.play("elimin")
+			$CanvasLayer/HBoxContainer/TextureRect2/cor.play("buit")
+	elif Globalingo.vides == 1:
+			$CanvasLayer/HBoxContainer/TextureRect3/cor.play("elimin")
+			$CanvasLayer/HBoxContainer/TextureRect3/cor.play("buit")
+	elif Globalingo.vides == 0:
+			$CanvasLayer/HBoxContainer/TextureRect/cor.play("elimin")
+			$CanvasLayer/HBoxContainer/TextureRect/cor.play("buit")

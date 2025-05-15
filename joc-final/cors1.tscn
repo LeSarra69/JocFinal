@@ -1,0 +1,78 @@
+[gd_scene load_steps=11 format=3 uid="uid://h38fycy5wgug"]
+
+[ext_resource type="Texture2D" uid="uid://bctvbvgulpbtn" path="res://Multi-Hearts 2.png" id="1_3fje0"]
+[ext_resource type="Script" uid="uid://dcxmn7ysmu6m2" path="res://cors_1.gd" id="2_adj41"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4b3d"]
+atlas = ExtResource("1_3fje0")
+region = Rect2(224, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fje0"]
+atlas = ExtResource("1_3fje0")
+region = Rect2(160, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adj41"]
+atlas = ExtResource("1_3fje0")
+region = Rect2(160, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qf0my"]
+atlas = ExtResource("1_3fje0")
+region = Rect2(176, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jpipk"]
+atlas = ExtResource("1_3fje0")
+region = Rect2(192, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cnlkc"]
+atlas = ExtResource("1_3fje0")
+region = Rect2(208, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmc1h"]
+atlas = ExtResource("1_3fje0")
+region = Rect2(224, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p4b3d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4b3d")
+}],
+"loop": true,
+"name": &"buit",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3fje0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adj41")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qf0my")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jpipk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cnlkc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmc1h")
+}],
+"loop": true,
+"name": &"elimin",
+"speed": 5.0
+}]
+
+[node name="cor" type="AnimatedSprite2D"]
+position = Vector2(295, 134)
+scale = Vector2(13.5625, 13.8125)
+sprite_frames = SubResource("SpriteFrames_p4b3d")
+animation = &"buit"
+script = ExtResource("2_adj41")

@@ -1,9 +1,8 @@
 extends CharacterBody2D
 const velocitat:= 500
 const vsalt = -500
-
 var gravetat = ProjectSettings.get_setting("physics/2d/default_gravity")
-
+var llista_cors : Array[TextureRect]
 func _physics_process(delta):
 
 	if Input.is_action_just_pressed("salt") and is_on_floor():
@@ -41,5 +40,28 @@ func _on_timer_bar_time_to_die() -> void:
 
 
 func _on_area_impacte_area_entered(area: Area2D) -> void:
-	Globalingo.vides -=1
-	print(Globalingo.vides)
+		Globalingo.vides2 -= 1
+		if Globalingo.vides2 == 2:
+			$CanvasLayer/HBoxContainer/TextureRect2/cor.play("elimin")
+			$CanvasLayer/HBoxContainer/TextureRect2/cor.play("buit")
+		elif Globalingo.vides2 == 1:
+			$CanvasLayer/HBoxContainer/TextureRect3/cor.play("elimin")
+			$CanvasLayer/HBoxContainer/TextureRect3/cor.play("buit")
+		elif Globalingo.vides2 == 0:
+			$CanvasLayer/HBoxContainer/TextureRect/cor.play("elimin")
+			$CanvasLayer/HBoxContainer/TextureRect/cor.play("buit")
+func _ready() -> void:
+	var cors_parent = $CanvasLayer/HBoxContainer
+	for child in cors_parent.get_children():
+		llista_cors.append(child)
+		
+		
+		
+func take_damage():
+	if Globalingo.vides > 0:
+		Globalingo.vides -= 1
+		$CanvasLayer/HBoxContainer/TextureRect/cor.play("elimin")
+func update_heart_display():
+		for i in range(llista_cors.size()):
+			llista_cors[i].visible = 1 < Globalingo.vides
+		
