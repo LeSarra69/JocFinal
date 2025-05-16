@@ -1,3 +1,5 @@
+Node2D
+Camera2D
 CanvasLayer
 AudioStreamPlayer
 AnimatedSprite2D
@@ -11,4 +13,3 @@ VBoxContainer
 PanelContainer
 Sprite2D
 AnimationTree
-StaticBody2D

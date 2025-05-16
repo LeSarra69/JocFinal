@@ -188,9 +188,9 @@ shape = SubResource("CapsuleShape2D_pq1qg")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(44, 456)
-zoom = Vector2(1.5, 1.5)
 
 [node name="TimerBar" type="Line2D" parent="."]
+visible = false
 position = Vector2(-29.9615, 300)
 scale = Vector2(0.67094, 1)
 points = PackedVector2Array(-462.096, -55, 423.547, -55.4512, 683, -55)

@@ -4,7 +4,6 @@ res://fondoniv_1.tscn
 res://fondoniv2.tscn
 res://nivell3.tscn
 res://menu inicio.tscn
-res://Nivell33333.tscn
 res://pers2.tscn
 res://Pers1.tscn
 res://Tutorial.tscn
@@ -21,8 +20,8 @@ res://sorollseta.tscn
 res://sorollesqueleto.tscn
 res://menu_pausa.tscn
 res://progressbar.tscn
-res://timer_bar.gd
-res://area_2d_4.gd
-res://nivell_33333.gd
+res://Nivell33333.tscn
 res://menupausa3.tscn
-res://menu_pausa.gd
+res://boss.gd
+res://nivell_33333.gd
+res://monstruitos.gd

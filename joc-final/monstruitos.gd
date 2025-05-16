@@ -31,4 +31,3 @@ func _on_saltalcap_body_entered(body: Node2D) -> void:
 
 func _on_animated_sprite_2d_animation_finished():
 	queue_free()
-	$"../AudioStreamPlayer2".play

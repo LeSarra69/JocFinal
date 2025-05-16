@@ -6,3 +6,6 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 
 func _ready() -> void:
 	$AudioStreamPlayer.play()
+	$AnimatedSprite2D.play("default")
+	Globalingo.vides = 3
+	Globalingo.vides2 = 3
