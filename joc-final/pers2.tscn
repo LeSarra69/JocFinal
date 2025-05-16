@@ -179,7 +179,7 @@ script = ExtResource("1_vkgb0")
 position = Vector2(73, 425)
 scale = Vector2(1.58758, 1.95817)
 sprite_frames = SubResource("SpriteFrames_wnxm7")
-animation = &"salt2"
+animation = &"nquiet"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(71, 427)
@@ -190,7 +190,7 @@ position = Vector2(108, 260)
 
 [node name="TimerBar" type="Line2D" parent="."]
 points = PackedVector2Array(-467, -57, 683, -55)
-default_color = Color(0.844809, 0.885945, 0.966426, 1)
+default_color = Color(0.599057, 1.46799e-06, 1.92523e-07, 1)
 script = ExtResource("5_ves22")
 
 [node name="Timer" type="Timer" parent="TimerBar"]
@@ -206,9 +206,9 @@ shape = SubResource("RectangleShape2D_jbt4h")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
 offset_left = -185.0
-offset_top = -19.0
-offset_right = 247.0
-offset_bottom = 40.0
+offset_top = 14.0
+offset_right = 552.0
+offset_bottom = 73.0
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/HBoxContainer"]
 custom_minimum_size = Vector2(243, 0)

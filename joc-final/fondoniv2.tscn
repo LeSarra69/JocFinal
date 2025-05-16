@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://earylxcfpeuy"]
+[gd_scene load_steps=49 format=3 uid="uid://earylxcfpeuy"]
 
 [ext_resource type="Script" uid="uid://xytotw3irjr" path="res://fondoniv_2.gd" id="1_rks0c"]
 [ext_resource type="Texture2D" uid="uid://pavi25w3fe46" path="res://sky.png" id="1_wowoo"]
@@ -16,7 +16,9 @@
 [ext_resource type="PackedScene" uid="uid://bvlbtr2nvffx0" path="res://pers2.tscn" id="12_twg3m"]
 [ext_resource type="PackedScene" uid="uid://kwm5jrflqjnh" path="res://monstruitos.tscn" id="13_twg3m"]
 [ext_resource type="PackedScene" uid="uid://ojlm7qthlf1r" path="res://maligno.tscn" id="14_0p81f"]
-[ext_resource type="PackedScene" uid="uid://bkrvsq0mgptft" path="res://boss.tscn" id="17_hgwm5"]
+[ext_resource type="AudioStream" uid="uid://b3p7fqsam3siq" path="res://Lego Break _ Fall Apart - Sound Effect (HD) [8Z0JhcWURDY].mp3" id="18_a6ifo"]
+[ext_resource type="AudioStream" uid="uid://deae6u7atap4e" path="res://seta-aplastada.mp3" id="19_k045q"]
+[ext_resource type="PackedScene" uid="uid://713mh3isyonn" path="res://menu_pausa.tscn" id="19_y3wsc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nw7bw"]
 size = Vector2(17602, 83.5)
@@ -394,11 +396,11 @@ position = Vector2(1151, 4)
 script = ExtResource("10_u6jkv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
-position = Vector2(2156, 210)
+position = Vector2(4782, 519)
 shape = SubResource("CapsuleShape2D_n46kx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D4"]
-position = Vector2(2165, 193)
+position = Vector2(4783, 496)
 scale = Vector2(5.91992, 5.63672)
 sprite_frames = SubResource("SpriteFrames_v1cw1")
 frame_progress = 0.93011
@@ -492,8 +494,19 @@ position = Vector2(4675, 604)
 [node name="seta16" parent="." instance=ExtResource("13_twg3m")]
 position = Vector2(5627, 602)
 
-[node name="boss" parent="." instance=ExtResource("17_hgwm5")]
-position = Vector2(11011, 388)
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18_a6ifo")
+autoplay = true
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_k045q")
+autoplay = true
+
+[node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="menu_pausa" parent="CanvasLayer" instance=ExtResource("19_y3wsc")]
 
 [connection signal="body_entered" from="Area2D4" to="Area2D4" method="_on_body_entered"]
 [connection signal="screen_exited" from="Pers 1/VisibleOnScreenNotifier2D2" to="pers2" method="_on_visible_on_screen_notifier_2d_screen_exited"]

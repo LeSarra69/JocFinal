@@ -191,9 +191,9 @@ scale = Vector2(3.15, 2.95)
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
 offset_left = -185.0
-offset_top = 20.0
+offset_top = 47.0
 offset_right = 552.0
-offset_bottom = 79.0
+offset_bottom = 106.0
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/HBoxContainer"]
 custom_minimum_size = Vector2(243, 0)
@@ -224,5 +224,7 @@ scale = Vector2(1.76562, 1.79687)
 [node name="collision impacte1" type="CollisionShape2D" parent="areaimpacte2"]
 position = Vector2(31, 444)
 shape = SubResource("RectangleShape2D_du2vc")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
 
 [connection signal="area_entered" from="areaimpacte2" to="." method="_on_areaimpacte_2_area_entered"]

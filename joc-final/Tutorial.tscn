@@ -35,19 +35,20 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -540.5
-offset_top = -176.5
-offset_right = 540.5
-offset_bottom = 176.5
+offset_left = -566.0
+offset_top = -164.0
+offset_right = 597.0
+offset_bottom = 189.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 40
-text = "Entre els dos jugadors aconseguiu superar els escenaris
- amb  tots els seus obstacles i els esbirros del \"jefe\" 
-fins arrivar al escenari del \"jefe final\" i mateu-lo 
-per tal de superar el joc. Molta sort !!! fra
+text = "Entre els dos jugadors aconseguiu superar els escenaris en 
+menys de 2 minuts cada un amb  tots els seus obstacles
+ i els esbirros del \"jefe\" fins arrivar al escenari del \"jefe 
+final\"i mateu-lo per tal de superar el joc.
+                                           Molta sort !!! 
 "
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

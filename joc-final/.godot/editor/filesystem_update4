@@ -1,8 +1,8 @@
 res://Nivell1.tscn
+res://menu_pausa.gdshader
 res://fondoniv_1.tscn
 res://fondoniv2.tscn
 res://nivell3.tscn
-res://game over.tscn
 res://menu inicio.tscn
 res://Nivell33333.tscn
 res://pers2.tscn
@@ -13,13 +13,16 @@ res://setas.tscn
 res://maligno.tscn
 res://boss.tscn
 res://pers1-3.tscn
+res://game over.tscn
 res://personatge2-3.tscn
 res://cors1.tscn
-res://game_over.gd
-res://victoria.gd
 res://victoria.tscn
-res://monstruitos.gd
-res://maligno.gd
 res://sorollseta.tscn
 res://sorollesqueleto.tscn
-res://boss.gd
+res://menu_pausa.tscn
+res://progressbar.tscn
+res://timer_bar.gd
+res://area_2d_4.gd
+res://nivell_33333.gd
+res://menupausa3.tscn
+res://menu_pausa.gd

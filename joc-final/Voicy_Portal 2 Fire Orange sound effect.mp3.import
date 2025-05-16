@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bbidhcwqdm8mo"
+path="res://.godot/imported/Voicy_Portal 2 Fire Orange sound effect.mp3-97dff1ee2cbc2bb29844a80372a0bfed.mp3str"
+
+[deps]
+
+source_file="res://Voicy_Portal 2 Fire Orange sound effect.mp3"
+dest_files=["res://.godot/imported/Voicy_Portal 2 Fire Orange sound effect.mp3-97dff1ee2cbc2bb29844a80372a0bfed.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

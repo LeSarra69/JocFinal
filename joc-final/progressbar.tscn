@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://64cp6sprrgj"]
+
+[ext_resource type="Script" uid="uid://cjx6damnmsn05" path="res://progressbar.gd" id="1_gxf6b"]
+
+[node name="progressbar" type="Node2D"]
+script = ExtResource("1_gxf6b")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 128.0
+offset_bottom = 69.0
+theme_override_font_sizes/font_size = 30
+text = "00:00"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 117.0
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
